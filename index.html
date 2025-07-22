@@ -141,8 +141,18 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+
             <div class="projects-grid">
-                <div class="project-card">
+                <!-- Filter Buttons -->
+                 <div class="project-card" data-category="web">
                     <img src="https://i.pinimg.com/736x/81/77/74/81777470b78e0d4e18b097432c75dc38.jpg" alt="Project 1">
                     <div class="project-info">
                         <h3>wed-addlink&uploadfile Website</h3>
@@ -154,7 +164,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <!-- Filter Buttons -->
+                <div class="project-card" data-category="mobile">
                     <img src="https://i.pinimg.com/736x/df/b8/84/dfb8847003247765800ff9b620b71be7.jpg" alt="Project 2">
                     <div class="project-info">
                         <h3>game-pc-pixel-windows</h3>
@@ -166,7 +177,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <!-- Filter Buttons -->
+                <div class="project-card" data-category="ui">
                     <img src="https://i.pinimg.com/736x/fd/07/23/fd0723547157a4fc88d4171211e04732.jpg" alt="Project 3">
                     <div class="project-info">
                         <h3>mini-ecommerce-collaboration</h3>
