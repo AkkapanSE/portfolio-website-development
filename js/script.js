@@ -91,3 +91,13 @@ window.addEventListener('load', () => {
         }, 500);
     }, 1000);
 });
+
+
+// Scroll Progress Indicator
+window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset;
+    const docHeight = document.body.offsetHeight - window.innerHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    
+    document.querySelector('.progress-bar').style.width = scrollPercent + '%';
+});
