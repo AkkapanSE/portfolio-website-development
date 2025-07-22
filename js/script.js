@@ -135,7 +135,7 @@ const typingText = document.getElementById('typing-text');
 const typingTexttest = document.getElementById('typing-text-test');//เพิ่มเติมสำหรับการแสดงชื่อ
 
 const textArray = ['Full Stack Developer', 'React Specialist', 'Node.js Expert', 'UI/UX Enthusiast'];
-const textArraytest = ['panuwat takham', 'Ekaphan Totsathisrangsan'];//names teams
+const textArraytest = ['panuwat takham', 'AkKaphan Totsathisrangsan'];//names teams
 //typingText
 let textIndex1 = 0;
 let charIndex1 = 0;
